@@ -1,0 +1,55 @@
+body{
+    background-image: url(images/prism.png)
+}
+.container{
+    margin:auto;
+}
+.navbar-nav{
+    float:right;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.navbar-brand{
+    background-color: aqua;
+    padding:10px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.navbar-default{
+    background-color: black;
+    color: #fff;
+}
+
+.jumbotron{
+    background-color: #fff;
+}
+.footer{
+    background-color:black;
+    color: #fff;
+    clear: both;
+    height: 30px;
+    text-align: center;
+    font-size: 10px;
+
+}
+
+img{
+    width: 30%;
+    height:30%;
+    border: solid black 1px;
+    float: left;
+    margin: 10px;
+
+}
