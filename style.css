@@ -1,55 +1,37 @@
 body{
-    background-image: url(images/prism.png)
+    background-image: url(images/polka-dots.png)
 }
+
 .container{
-    margin:auto;
-}
-.navbar-nav{
-    float:right;
-}
-
-
-ul{
-    list-style-type: none;
+    widows: 960px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left:10px;
+    padding-right: 10px;
 }
 
-li{
-    padding: 10px;
-    color: #fff;
-    font-size: 15px;
+.navbar-fixed-bottom{
+    clear: both;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.titles{
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 7px;
 }
 
 .navbar-brand{
-    background-color: aqua;
-    padding:10px;
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Shadows Into Light', cursive;
     font-weight: bold;
 }
 
-.navbar-default{
-    background-color: black;
-    color: #fff;
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
 }
 
-.jumbotron{
-    background-color: #fff;
-}
-.footer{
-    background-color:black;
-    color: #fff;
-    clear: both;
-    height: 30px;
-    text-align: center;
-    font-size: 10px;
-
-}
-
-img{
-    width: 30%;
-    height:30%;
-    border: solid black 1px;
-    float: left;
-    margin: 10px;
-
+label{
+    color:white;
 }
